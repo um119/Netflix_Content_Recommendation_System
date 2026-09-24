@@ -1,0 +1,23 @@
+[project]
+name = "netflix-content-recommendation-system"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "M.Umair Bashir", email = "m.umairbsse@gmail.com" }
+]
+requires-python = ">=3.11.14"
+dependencies = [
+    "matplotlib>=3.11.2",
+    "numpy>=2.4.6",
+    "panadas>=0.2",
+    "pandas>=3.0.6",
+    "scikit-learn>=1.9.1",
+]
+
+[project.scripts]
+netflix-content-recommendation-system = "netflix_content_recommendation_system:main"
+
+[build-system]
+requires = ["uv_build>=0.12.6,<0.13.0"]
+build-backend = "uv_build"
