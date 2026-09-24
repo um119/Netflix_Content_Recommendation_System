@@ -199,5 +199,3 @@ Please adhere to the existing code style (PEP 8) and update this README if you
 This project is provided for educational and research purposes. Choose an appropriate open‑source license (e.g., MIT) and add a `LICENSE` file if you intend to share publicly.
 
 ---
-
-*Generated with Claude Code – 🤖 Generated with [Claude Code](https://claude.com/claude-code).*
